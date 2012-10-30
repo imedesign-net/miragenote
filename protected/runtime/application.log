@@ -1,0 +1,30 @@
+2012/10/30 18:19:07 [error] [exception.CException] exception 'CException' with message 'Alias "User.models.*" is invalid. Make sure it points to an existing directory or file.' in /Applications/MAMP/htdocs/yii/framework/YiiBase.php:343
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/base/CModule.php(227): YiiBase::import('User.models.*')
+#1 /Applications/MAMP/htdocs/miragenote/protected/modules/user/UserModule.php(14): CModule->setImport(Array)
+#2 /Applications/MAMP/htdocs/yii/framework/base/CModule.php(91): UserModule->init()
+#3 /Applications/MAMP/htdocs/yii/framework/YiiBase.php(208): CModule->__construct('user', NULL, Array)
+#4 /Applications/MAMP/htdocs/yii/framework/base/CModule.php(283): YiiBase::createComponent('user.UserModule', 'user', NULL, Array)
+#5 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(338): CModule->getModule('user')
+#6 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(277): CWebApplication->createController('user')
+#7 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('user')
+#8 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Applications/MAMP/htdocs/miragenote/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/miragenote/index.php?r=user
+---
+2012/10/30 18:22:17 [error] [exception.CException] exception 'CException' with message 'Alias "User.models.*" is invalid. Make sure it points to an existing directory or file.' in /Applications/MAMP/htdocs/yii/framework/YiiBase.php:343
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/base/CModule.php(227): YiiBase::import('User.models.*')
+#1 /Applications/MAMP/htdocs/miragenote/protected/modules/user/UserModule.php(14): CModule->setImport(Array)
+#2 /Applications/MAMP/htdocs/yii/framework/base/CModule.php(91): UserModule->init()
+#3 /Applications/MAMP/htdocs/yii/framework/YiiBase.php(208): CModule->__construct('user', NULL, Array)
+#4 /Applications/MAMP/htdocs/yii/framework/base/CModule.php(283): YiiBase::createComponent('user.UserModule', 'user', NULL, Array)
+#5 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(338): CModule->getModule('user')
+#6 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(277): CWebApplication->createController('user')
+#7 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('user')
+#8 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Applications/MAMP/htdocs/miragenote/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/miragenote/index.php?r=user
+---
